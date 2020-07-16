@@ -16,10 +16,10 @@ const namesArr = ['Jack', 'Jill', 'John'];
 // Init iterator and pass in the names array
 const names = nameIterator(namesArr);
 
-// console.log(names.next().value);
-// console.log(names.next().value);
-// console.log(names.next().value);
-// console.log(names.next().value);
+console.log(names.next().value);
+console.log(names.next().value);
+console.log(names.next().value);
+console.log(names.next().value);
 
 // Generator Example
 function* sayNames() {
@@ -30,10 +30,10 @@ function* sayNames() {
 
 const name = sayNames();
 
-// console.log(name.next().value);
-// console.log(name.next().value);
-// console.log(name.next().value);
-// console.log(name.next().value);
+console.log(name.next().value);
+console.log(name.next().value);
+console.log(name.next().value);
+console.log(name.next().value);
 
 // ID Creator
 function* createIds() {
@@ -46,9 +46,9 @@ function* createIds() {
 
 const gen = createIds();
 
-// console.log(gen.next().value);
-// console.log(gen.next().value);
-// console.log(gen.next().value);
-// console.log(gen.next().value);
-// console.log(gen.next().value);
-// console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
